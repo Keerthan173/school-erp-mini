@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
-const router = express.Router();
+const router = express.Router();    // Router setup
 const JWT_SECRET = process.env.JWT_SECRET || 'changeme';
 
 // Register
